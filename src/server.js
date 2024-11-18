@@ -1,4 +1,4 @@
-import express from "express";
+/*import express from "express";
 import router from "./routers/videojuego_routes.js";
 import path from "path";
 import cors from "cors";
@@ -14,4 +14,27 @@ app.get("/", (req, res) => {
 });
 app.use("/api", router);
 
+export default app;*/
+import express from "express";
+import router from "./routers/videojuego_routes.js";
+
+
+// Inicializaciones
+const app = express();
+
+// Variables
+app.set("port", process.env.PORT || 3000);
+
+//Middlewares
+app.use(express.json());
+
+//Rutas
+app.get("/", (req, res) => {
+    res.send("Server ON");
+});
+app.use("/api",router);
+
+//exportar la variable app
 export default app;
+
+
