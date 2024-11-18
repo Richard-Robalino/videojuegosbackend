@@ -1,0 +1,26 @@
+{
+  "name": "apirestful-videojuegos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "bdd": "json-server --watch db.json --port 4000"
+  },
+  "keywords": ["api", "videojuegos", "restful"],
+  "author": "",
+  "license": "ISC",
+  "description": "API RESTful para gestionar videojuegos",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "json-server": "^1.0.0-beta.3",
+    "uuid": "^10.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.0"
+  }
+}

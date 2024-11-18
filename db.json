@@ -1,0 +1,69 @@
+{
+  "tours": [
+    {
+      "id": "3",
+      "name": "Tour 3",
+      "price": 300
+    },
+    {
+      "id": "ae07ccfe-820b-4f72-a80b-6880e9bbe879",
+      "name": "Tour Konoha",
+      "village": "Konoha (Hidden Leaf Village)",
+      "price": "500 Ryo",
+      "description": "Únete a este épico recorrido por Konoha y conoce a los Hokages legendarios. Visita lugares icónicos como la Torre Hokage, el Monumento de los Hokages, el Bosque de la Muerte y mucho más.",
+      "guide": "Iruka Umino (Guía Oficial de Konoha)",
+      "duration": "3 días",
+      "includes": [
+        "Visita guiada al Monumento de los Hokages",
+        "Clase introductoria de jutsu básica",
+        "Certificado de visitante oficial de Konoha"
+      ],
+      "recommended_gear": [
+        "Kunai y shuriken (opcionales)",
+        "Protector de frente (disponible en la entrada)",
+        "Chaleco táctico de Konoha (para fanáticos)"
+      ]
+    },
+    {
+      "id": "bbcc288a-a57b-424c-b9f9-733fea574920",
+      "name": "Tour Gotham Nocturno",
+      "city": "Gotham City",
+      "price": "1200 USD",
+      "description": "Explora la oscura y enigmática ciudad de Gotham. Descubre sus lugares más icónicos, desde el Asilo Arkham hasta la Torre Wayne.",
+      "guide": "Jim Gordon (Comisionado de Gotham PD)",
+      "duration": "1 noche",
+      "includes": [
+        "Visita a la Torre Wayne",
+        "Tour del Asilo Arkham (vista externa)",
+        "Recorrido por los callejones de Crime Alley",
+        "Foto con la Bat-Señal (si está encendida)"
+      ],
+      "recommended_gear": [
+        "Abrigo o gabardina oscura",
+        "Linterna",
+        "Zapatos resistentes para callejones"
+      ]
+    },
+    {
+      "id": "c12e1fab-0a73-468e-8a6e-994a2c6abde7",
+      "name": "Tour Metrópolis Brillante",
+      "city": "Metrópolis",
+      "price": "900 USD",
+      "description": "Recorre la ciudad de la esperanza, hogar de Superman. Visita la Torre del Daily Planet y otros lugares emblemáticos.",
+      "guide": "Lois Lane (Reportera del Daily Planet)",
+      "duration": "1 día",
+      "includes": [
+        "Tour de la Torre del Daily Planet",
+        "Visita guiada por la plaza de Metrópolis",
+        "Paseo por el Museo de Superman",
+        "Foto con la estatua de Superman"
+      ],
+      "recommended_gear": [
+        "Gafas de sol",
+        "Sombrero para el sol",
+        "Zapatos cómodos para caminar"
+      ]
+    }
+  ],
+  "users": []
+}
